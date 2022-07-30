@@ -11,25 +11,58 @@
 }
 
 .masthead__menu-search-button {
+    padding-left: 20px;
     grid-area: menu-search-button;
+    display: inline-flex;
+    align-items: center;
+
+}
+.masthead-menu-button, .masthead-search-button{
+    font-size: 11px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.masthead-menu-button:hover , .masthead-search-button:hover {
+    background-color: lightgray;
 }
 
 .masthead__little-technologies {
     grid-area: little-technologies;
+    color: #6f6f6f;
+    font-size: 10px;
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.css-link, .html-link, .js-link, .python-link {
+    margin: 5px;
 }
 
 .masthead__action-buttons {
     grid-area: action-buttons;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .masthead__date {
     grid-area: date;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .masthead__logo {
     grid-area: logo;
+
 }
 
 .masthead__paper {
     grid-area: today-paper;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
